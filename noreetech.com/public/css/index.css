@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* CSS RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+}
+
+/* Super Global */
+html { 
+    font-size: 100%; 
+    overflow-y: scroll; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+}
+
+body {
+	body {
+		font: 12px/1.5 Georgia, Palatino, "Palatino Linotype", serif;
+		background: #eaf5ff;
+		color: #555;
+		}
+}
+
+.nav li{
+	display:inline;
+}
+
+title img{
+	width:16px;
+	height:16px;
+	background: url(images/stick images/fblogo.png) no-repeat top right;
+}
