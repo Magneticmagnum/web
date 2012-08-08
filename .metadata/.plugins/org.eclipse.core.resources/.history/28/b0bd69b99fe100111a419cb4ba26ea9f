@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Ying Computers - #1 Hmong Hardware Specialists!</title>
+		<title>Ying Computers - #1 Hmoob Hardware tshwj xeeb!</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -16,7 +16,6 @@
 			}
 		</style>
 		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-		<link href="css/index.css" rel="stylesheet">
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -40,23 +39,26 @@
 					<a class="brand" href="#">Ying Computers LLC</a>
 					<div class="nav-collapse">
 						<ul class="nav">
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="repair.html">Repair and Support</a>
-							</li>
 							<li class="active">
-								<a href="#">Our Method</a>
+								<a href="#">Tsev</a>
 							</li>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="#about">Kho thiab pab txhawb</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="#about">Peb txoj kev</a>
+							</li>
+							<li>
+								<a href="#about">Peb ua hauj lwm</a>
+							</li>
+							<li>
+								<a href="#about">hais txog wb</a>
+							</li>
+							<li>
+								<a href="#contact">tiv tauj peb</a>
 							</li>
 							<li id="language">
-								<a href="indexHmong.html">Hais lus Hmoob? Nyem qhov no!</a>
+								<a href="#English">Speak English?</a>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -65,13 +67,66 @@
 		</div>
 
 		<div class="container">
-			
-			<div class="span12">
-				<h1> Under Construction</h1>
-				
-				<h2>Call us for inquiries: 651-283-8458</h2>
-				
+
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">
+				<h1> # 1 Hmoob Hardware thiab Software kho nyob rau hauv Minnesota!</h1>
+				<p>
+					Peb yog ib lub zos thiab tus phooj ywg Hmoob kho vajtse kho kav nyob hauv St. Paul Minnesota txij xyoo 2004!
+					Uas muaj tshaj 15 xyoos rov hauv kev repairing thiab es ua kom xyuas hauv computer, peb ua koj paub peb yog cov ntau txog tej thiab pheej yig rau tshaj ib ncig.
+					Peb yuav tau ua hauj lwm thiab troubleshoot dab tsi los ntawm Comptuers mus rau Laptops, PS3s Xbox, iPhone thiab hauv xov tooj ntawd tes!  
+									
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large">kawm ntxiv &raquo;</a>
+				</p>
 			</div>
+
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="span4">
+					<h2>Peb txoj kev</h2>
+					<p>
+						Peb yog ib lub zos thiab nyiam phooj ywg haujlwm uas yuav ua hauj lwm nrog koj kom txog thaum koj 100% puas txaus siab rau koj cov teeb meem.
+						Nrog rau cob mas cov neeg ua haujlwm, koj yuav pw assured tias koj tshuab no kom zoo nrog peb. Tsis hais lus Askiv?
+						tsis ua li cas! Peb yuav txawj hais lus Asmeskas thiab Hmoob yuav pab koj thiab koj tsev neeg to taub txog qhov teeb meem thiab zoo li cas peb
+						yuav ua rau kev txhim kho rau nws!
+					</p>
+					<p>
+						<a class="btn" href="#">Saib cov lus &raquo;</a>
+					</p>
+				</div>
+				<div class="span4">
+					<h2>Peb ua hauj lwm</h2>
+					<p>
+						
+						Peb khiav hauv:
+						<ul>
+							<li>los yog kho xyuas hauv computer, laptops, thiab Macs</li>
+							<li>Kab mob raug tshem tawm thiab tus tiv thaiv</li>
+							<li>Kho Gaming Consoles, Xbox360, PS3, thiab Wii</li>
+							<li>iPhone thiab cov xov tooj hauv xov tooj ntawd kho</li>
+							<li>Txhob xauv lub koj tes mus ua hauj lwm nrog rau lwm cov cab kuj</li>
+							<li>Cov kev cai built computer systems</li>
+						</ul>	</p>
+					<p>
+						<a class="btn" href="#">Saib cov lus &raquo;</a>
+					</p>
+				</div>
+				<div class="span4">
+					<h2>Tus nqi qis tshaj</h2>
+					<p>
+						Peb yog cheaper dua tej lag luam ib ncig. Ua ntej yuav mus yuav zoo tshaj plaws, GeekSquad, los yog lwm txoj cai kho khw twg los tau, tuaj saib peb!
+						Coj kom tau txhua tus competitors tsocai rau peb thiab peb yuav tuav tau nws thiab muab koj ib cov kev pab zoo!
+					</p>
+					<p>
+						<a class="btn" href="#">Saib cov lus &raquo;</a>
+					</p>
+				</div>
+			</div>
+
+			<hr>
+
 			<footer>
 				<p>
 					&copy; Ying Computers LLC 2012

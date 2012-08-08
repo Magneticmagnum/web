@@ -40,23 +40,26 @@
 					<a class="brand" href="#">Ying Computers LLC</a>
 					<div class="nav-collapse">
 						<ul class="nav">
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="repair.html">Repair and Support</a>
-							</li>
 							<li class="active">
-								<a href="#">Our Method</a>
+								<a href="#">Home</a>
 							</li>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="#about">Repair and Support</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="#about">Our Method</a>
+							</li>
+							<li>
+								<a href="#about">Our Work</a>
+							</li>
+							<li>
+								<a href="#about">About Us</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
 							</li>
 							<li id="language">
-								<a href="indexHmong.html">Hais lus Hmoob? Nyem qhov no!</a>
+								<a href="#hmong">Hais lus Hmoob? Nyem qhov no!</a>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -65,13 +68,66 @@
 		</div>
 
 		<div class="container">
-			
-			<div class="span12">
-				<h1> Under Construction</h1>
-				
-				<h2>Call us for inquiries: 651-283-8458</h2>
-				
+
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">
+				<h1> #1 Hmong Hardware and Software Repair in Minnesota!</h1>
+				<p>
+					We are a local and friendly Hmong hardware repair shop located in St. Paul Minnesota since 2004!
+					With over 15 years of experience repairing and restoring computers, we can assure you we are the most experienced and the cheapest around.
+					We can work and troubleshoot anything from Comptuers to Laptops, PS3s to Xbox, iPhone and Android phones!  
+					
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large">Learn more &raquo;</a>
+				</p>
 			</div>
+
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="span4">
+					<h2>Our Method</h2>
+					<p>
+						We are a local and friendly business that will work with you until you are 100% Satisfied with your problems.
+						With highly knowledgeable staff, you can rest assured that your systems are safe with us.  Can't speak English?
+						No problem!  We can speak English and Hmong to help you and your family understand the problems and what we 
+						will do to fix it!
+					</p>
+					<p>
+						<a class="btn" href="#">View details &raquo;</a>
+					</p>
+				</div>
+				<div class="span4">
+					<h2>Our Work</h2>
+					<p>
+						
+						We specialize in:
+						<ul>
+							<li>Repairing Computers, Laptops, and Macs</li>
+							<li>Virus Removal and Protection</li>
+							<li>Fixing Gaming Consoles such as Xbox360, PS3, and Wii</li>
+							<li>iPhone and Android phone repairs</li>
+							<li>Unlocking Your Phones to Work with Any Carrier</li>
+							<li>Custom Built Computer Systems</li>
+						</ul>	</p>
+					<p>
+						<a class="btn" href="#">View details &raquo;</a>
+					</p>
+				</div>
+				<div class="span4">
+					<h2>Lowest Price Guarantee</h2>
+					<p>
+						We are cheaper than any business around.  Before going to Best Buy, GeekSquad, or any other repair store, come see us!
+						Bring any competitors quote to us and we will beat it and offer you a better service!
+					</p>
+					<p>
+						<a class="btn" href="#">View details &raquo;</a>
+					</p>
+				</div>
+			</div>
+
+			<hr>
+
 			<footer>
 				<p>
 					&copy; Ying Computers LLC 2012

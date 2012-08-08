@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Ying Computers - #1 Hmong Hardware Specialists!</title>
+		<title>Bootstrap, from Twitter</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -16,7 +16,6 @@
 			}
 		</style>
 		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-		<link href="css/index.css" rel="stylesheet">
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -40,23 +39,23 @@
 					<a class="brand" href="#">Ying Computers LLC</a>
 					<div class="nav-collapse">
 						<ul class="nav">
-							<li>
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="repair.html">Repair and Support</a>
-							</li>
 							<li class="active">
-								<a href="#">Our Method</a>
+								<a href="#">Home</a>
 							</li>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="#about">Repair and Support</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="#about">Our Method</a>
 							</li>
-							<li id="language">
-								<a href="indexHmong.html">Hais lus Hmoob? Nyem qhov no!</a>
+							<li>
+								<a href="#about">Our Work</a>
+							</li>
+							<li>
+								<a href="#about">About Us</a>
+							</li>
+							<li>
+								<a href="#contact">Contact</a>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -65,16 +64,55 @@
 		</div>
 
 		<div class="container">
-			
-			<div class="span12">
-				<h1> Under Construction</h1>
-				
-				<h2>Call us for inquiries: 651-283-8458</h2>
-				
+
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">
+				<h1> #1 Hmong Hardware and Software Repair in Minnesota!</h1>
+				<p>
+					We are a local and friendly Hmong hardware repair shop located in St. Paul Minnesota since 2004!
+					
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large">Learn more &raquo;</a>
+				</p>
 			</div>
+
+			<!-- Example row of columns -->
+			<div class="row">
+				<div class="span4">
+					<h2>Heading</h2>
+					<p>
+						Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+					<p>
+						<a class="btn" href="#">View details &raquo;</a>
+					</p>
+				</div>
+				<div class="span4">
+					<h2>Heading</h2>
+					<p>
+						Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+					<p>
+						<a class="btn" href="#">View details &raquo;</a>
+					</p>
+				</div>
+				<div class="span4">
+					<h2>Heading</h2>
+					<p>
+						Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+					</p>
+					<p>
+						<a class="btn" href="#">View details &raquo;</a>
+					</p>
+				</div>
+			</div>
+
+			<hr>
+
 			<footer>
 				<p>
-					&copy; Ying Computers LLC 2012
+					&copy; Company 2012
 				</p>
 			</footer>
 

@@ -50,9 +50,12 @@
 								<a href="#">Our Method</a>
 							</li>
 							<li>
-								<a href="about.html">About Us</a>
+								<a href="work.html">Our Work</a>
 							</li>
 							<li>
+								<a href="about.html">About Us</a>
+							</li>
+							<li class="active">
 								<a href="contact.html">Contact</a>
 							</li>
 							<li id="language">
@@ -65,13 +68,7 @@
 		</div>
 
 		<div class="container">
-			
-			<div class="span12">
-				<h1> Under Construction</h1>
-				
-				<h2>Call us for inquiries: 651-283-8458</h2>
-				
-			</div>
+
 			<footer>
 				<p>
 					&copy; Ying Computers LLC 2012
