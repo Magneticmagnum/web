@@ -1,0 +1,4 @@
+.nav img{
+	height: 39px;
+	width: auto;
+}

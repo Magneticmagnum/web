@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<style type=”text/css”>
+	body {
+	background-color: #d2b48c;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px dotted gray;
+	padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+	} 
+</style>
+<title>Arcade Orders</title>
+
+<link rel="stylesheet" type="text/css" href="CSS/system.css">
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+
+<body>
+	
+	<div id="example-one">
+	
+
+    <ul class="nav">
+                <li class="nav-one"><a href="#StickGate" class="current">Gate</a></li>
+                <li class="nav-two"><a href="#StickType">Type</a></li>
+                <li class="nav-three"><a href="#ButtonType">Button Type</a></li>
+                <li class="nav-four"><a href="#System">System</a></li>
+                <li class="nav-one"><a href="#FacePlate">Face Plate</a></li>
+                <li class="nav-two"><a href="#BoxColor">Box Color</a></li>
+                <li class="nav-three"><a href="#ButtonColor">Button Color</a></li>
+                <li class="nav-four last"><a href="#BalltopColor">Balltop Color</a></li>
+    </ul>
+
+    <div class="list-wrap">
+
+		<ul id="StickGate">
+			<li>
+				This shows an expanding box that grows and shrinks to fit with the contents within each tab.
+				Each tab will modify the image on the right.  Right now, the only tab that works is the 
+				Button Color tabs, which will update each button with the color you would like.
+			</li>
+		</ul>
+
+		 <ul id="StickType" class="hide">
+			<li>Stuff in here!</li>
+		 </ul>
+
+		 <ul id="ButtonType" class="hide">
+			
+		 </ul>
+
+		 <ul id="System" class="hide">
+			<li>Stuff in here!</li>
+		 </ul>
+		 
+		 <ul id="FacePlate" class="hide">
+			<li>Stuff in here!</li>
+		 </ul>
+		 
+		 <ul id="BoxColor" class="hide">
+			<li>Stuff in here!</li>
+		 </ul>
+		 
+		 <ul id="ButtonColor" class="hide">
+			<li id="button1">
+				Button 1<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+			<li id="button2">
+				Button 2<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+			<li id="button3">
+				Button 3<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+			<li id="button4">
+				Button 4<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+			<li id="button5">
+				Button 5<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>			
+			<li id="button6">
+				Button 6<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+			<li id="button7">
+				Button 6<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+			<li id="button8">
+				Button 6<br/>
+				<input type="radio" value="Black" /> Black <br/>
+				<input type="radio" value="red" /> Red <br/>
+				<input type="radio" value="Green" /> Green <br/>
+				<input type="radio" value="Yellow" /> Yellow <br/>
+				<input type="radio" value="Blue" /> Blue <br/>
+			</li>
+		 </ul>
+		 
+		 <ul id="BalltopColor" class="hide">
+			<li>Balltop Color</li>
+		 </ul>
+
+    </div> <!-- END List Wrap -->
+
+ </div> <!-- END Organic Tabs (Example One) -->
+ 
+ <div id="stickimage"> 	
+ 	<ul>
+ 		<img src="images/stick images/base stick.png"/>
+ 	</ul>
+ 		<span class="button1">
+	 		<img id="black1" src="images/stick images/black button.png"/>
+	 		<img id="red1" src="images/stick images/red button.png" class="hide">
+	 		<img id="green1" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow1" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue1" src="images/stick images/blue button.png" class="hide"/>
+ 		</span>
+	 	<span class="button2">
+	 		<img id="black2" src="images/stick images/black button.png">
+	 		<img id="red2" src="images/stick images/red button.png" class="hide">
+	 		<img id="green2" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow2" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue2" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+	 	<span class="button3">
+	 		<img id="black3" src="images/stick images/black button.png" >
+	 		<img id="red3" src="images/stick images/red button.png" class="hide">
+	 		<img id="green3" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow3" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue3" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+	 	<span class="button4">
+	 		<img id="black4" src="images/stick images/red button.png" />
+	 		<img id="red4" src="images/stick images/black button.png" class="hide">
+	 		<img id="green4" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow4" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue4" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+	 	<span class="button5">
+	 		<img id="black5" src="images/stick images/red button.png" />
+	 		<img id="red5" src="images/stick images/black button.png" class="hide"/>
+	 		<img id="green5" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow5" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue5" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+	 	<span class="button6">
+	 		<img id="black6" src="images/stick images/red button.png" />
+	 		<img id="red6" src="images/stick images/black button.png" class="hide">
+	 		<img id="green6" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow6" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue6" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+	 	<span class="button7">
+	 		<img id="black7" src="images/stick images/red button.png" />
+	 		<img id="red7" src="images/stick images/black button.png" class="hide">
+	 		<img id="green7" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow7" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue7" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+	 	<span class="button8">
+	 		<img id="black8" src="images/stick images/red button.png" />
+	 		<img id="red8" src="images/stick images/black button.png" class="hide">
+	 		<img id="green8" src="images/stick images/green button.png" class="hide"/>
+	 		<img id="yellow8" src="images/stick images/yellow button.png" class="hide"/>
+	 		<img id="blue8" src="images/stick images/blue button.png" class="hide"/>
+	 	</span>
+ 
+ </div>
+	<script type='text/javascript'
+		src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+	<script type='text/javascript' src="scripts/sandbox1.js"></script>
+	<script>
+		$(function() {
+
+			$("#example-one").organicTabs();
+
+			$("#example-two").organicTabs({
+				"speed" : 200
+			});
+
+		});
+	</script>
+
+</body>
+</html>
+
+<!--  put absolute pixel values for each button picture, layout buttons and hide them all in their respective classes -->

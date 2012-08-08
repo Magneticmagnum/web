@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- Author: Magnum Noree -->
+<!-- About : NoreeTech.com 404 Page -->
+<!-- Notes : An Error page -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>404 Not Found</title>
+<link href="css/notfound.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<div id="err">
+		<p id="transtext">Error</p>
+		<p id="transtext2">404</p>
+		
+		<p> A broken link led you here?  Let me know! </p>
+		<a href="https://www.facebook.com/NoreeTech"><img
+			src="images/fblogo.png" id="facebook"></a> <a
+			href="https://www.twitter.com/NoreeTech"><img
+			src="images/twitterlogo.png" id="twitter"></a>
+		<!-- Hopefully to obscure e-mail for scanner bots -->
+		<script type="text/javascript">
+			var b = "num";
+			var c = "@no";
+			var a = "Mag";
+			var d = "ree";
+			var e = "tech";
+			var f = ".com";
+			var g = "mai";
+			var h = "lto:";
+			document.write('<a href="'+ g + h + a + b + c + d + e + f + '">');
+		</script>
+		<img src="images/emaillogo.png" id="email"> </a>
+	</div>
+</body>
+</html>
