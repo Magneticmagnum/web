@@ -1,0 +1,7 @@
+$(document).ready(function(){
+	$('systemDisplayBox').hover(function()){
+		$(this).css("background", "url(../images/blue-gradient.jpg)");
+	}, function(){
+		$(this).css("background"), "url(../images/grey-gradient.jpg)");
+	});
+});

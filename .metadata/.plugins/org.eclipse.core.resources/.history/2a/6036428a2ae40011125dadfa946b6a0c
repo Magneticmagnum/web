@@ -1,0 +1,15 @@
+function replaceLoc(){
+	window.location.replace("model.html");
+}
+
+function onClickSetCookie(model){
+	$.cookies.set('model', model);
+}
+
+$(".systemDisplayBox").click(function(){
+	var myClass = $(this).attr("id");
+	$.cookies.set('model', myClass);
+});
+
+
+	$.cookies.set('model', 'test');
