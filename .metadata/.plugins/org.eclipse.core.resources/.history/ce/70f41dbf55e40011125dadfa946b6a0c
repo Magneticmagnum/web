@@ -1,0 +1,59 @@
+#right-cl{
+	
+	position:relative;
+	float: left;
+	width: 650px;
+	height: 300px;
+	border-style:solid;
+	border-width:thin;
+	cursor:pointer;
+	text-align:center;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 50px;
+	-moz-border-radius: 15px;
+	top:-10px;
+	border-radius: 15px;
+	background:url(../images/grey-gradient.jpg);
+	background-size: 100%;
+}
+
+
+.largedisplaybox img{
+	position:absolute;
+	top: -90px;
+    -moz-transform:scale(0.622);
+    -webkit-transform:scale(0.622);
+    transform:scale(0.622);
+}
+
+.xboxleftstick{
+	position:absolute;
+	float:left;
+	padding-top:147px;
+	left:210px;
+}
+
+.xboxbuttonx{
+	position:absolute;
+	padding-top:178px;
+	left:453px;
+}
+
+.xboxbuttony{
+	padding-top:138px;
+	left:487px;
+}
+.xboxbuttona{
+	padding-top:200px;
+	left:487px;
+}
+
+.xboxbuttonb{
+	padding-top:179px;
+	left:520px;
+}
+/*
+ * 0.62297496318 is the percentage to shrink all other images to fit large model of height 300px
+ */
+

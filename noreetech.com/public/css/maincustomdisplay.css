@@ -1,11 +1,3 @@
-.colorpalette li{
-	display:inline;
-}
-
-.checkbox{
-	float:left;
-	position:absolute;
-}
 
 
 #right-cl{
@@ -69,6 +61,24 @@
 
 #left-cl li{
 	padding-top:20px;
+}
+
+.colorpalette li{
+	display:inline;
+}
+
+.checkbox{
+	float:left;
+	position:absolute;
+	margin-left:-19px;
+}
+
+.colorpalette li:last-child .checkbox{
+	padding-left: 4px;
+}
+
+.colorpalette{
+	
 }
 /*
  * 0.62297496318 is the percentage to shrink all other images to fit large model of height 300px

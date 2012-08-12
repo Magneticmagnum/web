@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+		</style>
+		<title>Controller Customizer</title>
+
+		<!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
+		<link rel="stylesheet" type="text/css" href="css/system.css">
+
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	</head>
+
+	<body>
+		<div id="pagecentercolumn">
+			<div id="header">
+				<span>Build and Personalize your own Controller</span>
+			</div>
+
+			<div id="menu">
+
+				<ul>
+					<li class="aero">
+						<a href="http://noreetech.com/system"><span> 1. System </span></a>
+					</li>
+					<li class="aeroblack">
+						<span>2. Model </span>
+					</li>
+					<li class="aeroblack">
+						<span> 3. Color </span>
+					</li>
+					<li class="aeroblack">
+						<span> 4. Extras </span>
+					</li>
+					<li class="aeroblack">
+						<span> 5. Summary </span>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="stepbody">
+				<div id="left-cl">
+					<span> Step 1. Select Your System </span>
+					<ul>
+						<li> 3DS</li>
+						<li> iPhone</li>
+						<li> Nintendo 64</li>
+						<li> Playstation 3</li>
+						<li> Wii</li>
+						<li> Xbox 360</li>
+					</ul>
+
+				</div>
+				<div id="right-cl">
+					<div id="systemHeader">
+						<h2> Current Systems </h2>
+					</div>
+					<div id="system-xbox360" class="systemDisplayBox">
+						<img src="images/systems/xbox360.png">
+						<div class="system-text">
+							Xbox 360
+						</div>
+						<span class="system-description"> Customize your Xbox 360 controllers and Arcade Fight Sticks! </span>
+					</div>
+					<div id="system-ps3" class="systemDisplayBox">
+						<img src="images/systems/ps3.png">
+						<div class="system-text">
+							Playstation 3
+						</div>
+						<span class="system-description"> Customize your PS3 controllers and Arcade Fight Sticks! </span>
+
+					</div>
+					<div id="system-wii" class="systemDisplayBox">
+						<img src="images/systems/wii.png">
+						<div class="system-text">
+							Nintendo Wii
+						</div>
+						<span class="system-description"> Customize your Wii controllers and Arcade Fight Sticks! </span>
+
+					</div>
+					<div id="system-3ds" class="systemDisplayBox">
+						<img src="images/systems/3ds.png">
+						<div class="system-text">
+							Nintendo 3DS
+						</div>
+						<span class="system-description"> Choose from multiple 3DS plates and make your handheld unique! </span>
+
+					</div>
+					<div id="system-iphone" class="systemDisplayBox">
+						<img src="images/systems/iphone.png">
+						<div class="system-text">
+							iPhone
+						</div>
+						<span class="system-description"> Modify your iPhone to uniquely match your style! </span>
+
+					</div>
+					<div id="system-n64" class="systemDisplayBox">
+						<img src="images/systems/n64.png">
+						<div class="system-text">
+							Nintendo 64
+						</div>
+						<span class="system-description"> Modify your N64 controller buttons and case! </span>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+
+		</div>
+		<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- Script to load jQuery from my host if Google"s version of jQuery fails -->
+		<script>
+			!window.jQuery && document.write('<script src="scripts/jquery-1.7.2.min.js"><\/script>')
+		</script>
+		<script type="text/javascript" src="scripts/system.js"></script>
+	</body>
+</html>

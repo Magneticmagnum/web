@@ -1,15 +1,17 @@
-function replaceLoc() {
-	window.location.replace("model.html");
-}
-
-function onClickSetCookie(model) {
-	$.cookies.set('model', model);
-}
+/*
+ * Author: Magnum Noree
+ * Dependencies:  jquery-1.7.2
+ * About: Web app for Controller Customization
+ */
 
 
 $(".systemDisplayBox").click(function() {
 	var myClass = $(this).attr("id");
 	setCookie('model', myClass, 365);
+});
+
+$(".colorpalette").click(function(){
+	
 });
 
 
@@ -43,3 +45,9 @@ function checkCookie() {
 		}
 	}
 }
+
+$(document).ready(function(){
+	$('.hide').hide();
+	
+	
+});

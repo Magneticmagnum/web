@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+		</style>
+		<title>Controller Customizer</title>
+
+		<!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
+		<link rel="stylesheet" type="text/css" href="css/system.css">
+		<link rel="stylesheet" type="text/css" href="css/modelxbox360.css">
+		<link rel="stylesheet" type="text/css" href="css/maincustomdisplay.css">
+
+		<link href="favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	</head>
+
+	<body>
+		<div id="pagecentercolumn">
+			<div id="header">
+				<span>Build and Personalize your own Controller</span>
+			</div>
+
+			<div id="menu">
+
+				<ul>
+					<li class="aero">
+						<a href="system.html"><span> 1. System </span></a>
+					</li>
+					<li class="aero">
+						<a href="model.html"><span>2. Model </span></a>
+					</li>
+					<li class="aero">
+						<a href="#"><span> 3. Color </span></a>
+					</li>
+					<li class="aeroblack">
+						<span> 4. Extras </span>
+					</li>
+					<li class="aeroblack">
+						<span> 5. Summary </span>
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="stepbody">
+				<div id="left-cl">
+					<span> Step 3. Customize your Colors </span>
+					<ul>
+						<li>
+							Xbox 360 Wireless Controller
+						</li>
+					</ul>
+					<div id="xbox360wireless" class="systemDisplayBox">
+						<img src="images/stick images/xbox-360-controller.png">
+						<div class="system-text">
+							<h2>Original Look</h2>
+						</div>
+					</div>
+
+				</div>
+				<div id="right-cl">
+					<div class="largedisplaybox">
+						<img src="images/stick images/xbox-360-controller.png">
+						<img src="images/stick images/xbox-360-controller-stick.png">
+						
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+
+		</div>
+		<script type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- Script to load jQuery from my host if Google"s version of jQuery fails -->
+		<script>
+			!window.jQuery && document.write('<script src="scripts/jquery-1.7.2.min.js"><\/script>')
+		</script>
+		<script type="text/javascript" src="scripts/system.js"></script>
+	</body>
+</html>

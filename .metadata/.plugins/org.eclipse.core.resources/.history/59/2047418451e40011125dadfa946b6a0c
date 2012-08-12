@@ -1,0 +1,30 @@
+#right-cl{
+	
+	position:relative;
+	float: left;
+	width: 650px;
+	height: 300px;
+	border-style:solid;
+	border-width:thin;
+	cursor:pointer;
+	text-align:center;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 50px;
+	-moz-border-radius: 15px;
+	top:-10px;
+	border-radius: 15px;
+	background:url(../images/grey-gradient.jpg);
+	background-size: 100%;
+}
+
+
+.largedisplaybox img{
+	height: 62%;
+	width: auto;
+}
+
+/*
+ * 0.62297496318 is the percentage to shrink all other images to fit large model
+ */
+
