@@ -1,0 +1,2 @@
+$('systemDisplayBox').css('background-image', url(../images/blue-gradient.jpg));
+

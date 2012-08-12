@@ -1,0 +1,5 @@
+$(document).ready(function() {
+	$('systemDisplayBox').hover(function(){
+		$(this).css('background-image', 'url(../images/grey-gradient.jpg)')
+	});
+});

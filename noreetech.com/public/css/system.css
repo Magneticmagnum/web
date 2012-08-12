@@ -109,15 +109,19 @@ body {
 	background-color: white;
 	position:relative;
 	left: 5px;
+	top: -10px;
+	height:350px;
 }
 
+
 #right-cl {
+	position:relative;
 	float: left;
 	width: 700px;
 	margin-left: 10px;
 	background-color: white;
-	top: 10px;
-	
+	top:-10px;
+	height: 350px;
 }
 
 h2 {
@@ -125,19 +129,18 @@ h2 {
 	padding: 0px 0px 10px 0px;
 	font-size: 16px;
 }
-#left-cl span {
-	position: relative;
-	left: 30px;
-}
 
 #systemHeader {
 	width: 705px;
 	height: 20px;
+	
 }
 
 #systemHeader div {
 	width: 700px;
 	height: 18px;
+	
+	
 }
 
 .systemDisplayBox{
@@ -153,7 +156,11 @@ h2 {
 	margin-top: 10px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	background-image:url(../images/grey-gradient.jpg);
+	background:url(../images/grey-gradient.jpg);
+}
+
+.systemDisplayBox:hover{
+	background:url(../images/blue-gradient.jpg);
 }
 
 .systemDisplayBox img {
@@ -182,4 +189,7 @@ h2 {
 .system-text{
 	padding-top:100px;
 	padding-left: 20px;
+}
+.system-description{
+	font-size: 12px;
 }

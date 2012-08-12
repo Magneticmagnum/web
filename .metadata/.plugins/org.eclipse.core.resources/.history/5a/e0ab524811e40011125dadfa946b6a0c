@@ -1,0 +1,5 @@
+$("systemDisplayBox").hover{
+	function(){
+		$(this).css('background-image', url(../images/blue-gradient.jpg));
+	}
+}

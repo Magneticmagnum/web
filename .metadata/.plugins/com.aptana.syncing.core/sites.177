@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sites>
-<site>
-<name>yingcomputers to noreetech</name>
-<source>workspace:/yingcomputers</source>
-<destination>aptanavfs://f6c29064-34b2-4d35-b713-e58b102fc3ff/</destination>
-</site>
-</sites>
