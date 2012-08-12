@@ -109,8 +109,8 @@ body {
 	background-color: white;
 	position:relative;
 	left: 5px;
-	top: -40px;
-	height:auto;
+	top: -10px;
+	height:350px;
 }
 
 
@@ -143,12 +143,11 @@ h2 {
 	
 }
 
-
 .systemDisplayBox{
 	position:relative;
 	float: left;
 	width: 180px;
-	height: 155px;
+	height: 148px;
 	border-style:solid;
 	border-width:thin;
 	cursor:pointer;
@@ -156,7 +155,6 @@ h2 {
 	margin-left: 10px;
 	margin-top: 10px;
 	-moz-border-radius: 15px;
-	top:-10px;
 	border-radius: 15px;
 	background:url(../images/grey-gradient.jpg);
 }
@@ -195,8 +193,3 @@ h2 {
 .system-description{
 	font-size: 12px;
 }
-#xbox360wireless img{
-	margin-left:-60px;
-}
-
-

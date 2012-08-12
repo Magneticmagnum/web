@@ -23,10 +23,10 @@
 
 				<ul>
 					<li class="aero">
-						<a href="system.html"><span> 1. System </span></a>
+						<a href="http://noreetech.com/system"><span> 1. System </span></a>
 					</li>
-					<li class="aeroblack">
-						<span>2. Model </span>
+					<li class="aero">
+						<a href="#"><span>2. Model </span></a>
 					</li>
 					<li class="aeroblack">
 						<span> 3. Color </span>
@@ -67,7 +67,6 @@
 					</div>
 					<div id="system-ps3" class="systemDisplayBox">
 						<img src="images/systems/ps3.png">
-						<img src="images/stick images/comingsoon.png"class="soon">
 						<div class="system-text">
 							Playstation 3
 						</div>
@@ -84,7 +83,6 @@
 					</div>
 					<div id="system-3ds" class="systemDisplayBox">
 						<img src="images/systems/3ds.png">
-						<img src="images/stick images/comingsoon.png" class="soon">
 						<div class="system-text">
 							Nintendo 3DS
 						</div>
@@ -93,7 +91,6 @@
 					</div>
 					<div id="system-iphone" class="systemDisplayBox">
 						<img src="images/systems/iphone.png">
-						<img src="images/stick images/comingsoon.png" class="soon">
 						<div class="system-text">
 							iPhone
 						</div>
@@ -102,8 +99,6 @@
 					</div>
 					<div id="system-n64" class="systemDisplayBox">
 						<img src="images/systems/n64.png">
-						<img src="images/stick images/comingsoon.png" class="soon">
-						
 						<div class="system-text">
 							Nintendo 64
 						</div>
