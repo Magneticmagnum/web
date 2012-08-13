@@ -1,18 +1,23 @@
 /*
  * Author: Magnum Noree
  * Dependencies:  jquery-1.7.2
+ * 				  jquery.cookies.2.2.0
  * About: Web app for Controller Customization
  */
-
 
 $(".systemDisplayBox").click(function() {
 	var myClass = $(this).attr("id");
 	setCookie('model', myClass, 365);
 });
 
-$(".colorpalette").click(function(){
-	
+$(".colorpalette img").click(function() {
+	if ($(this).parent().siblings().children().hasClass("checkbox")) {
+		$(this).parent().siblings().children().remove(".checkbox");
+		$(this).parent().append('<img src="images/stick images/paletteX.png" class="checkbox">');
+	}
+
 });
+
 
 
 function setCookie(c_name, value, exdays) {
@@ -45,9 +50,3 @@ function checkCookie() {
 		}
 	}
 }
-
-$(document).ready(function(){
-	$('.hide').hide();
-	
-	
-});

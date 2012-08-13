@@ -11,6 +11,7 @@ html {
 	-webkit-box-shadow: 3px 3px 5px 6px black;
 	box-shadow: 3px 3px 5px 6px #ccc;
 	background-color: #FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
 }
 body {
 	background-color: #DCDDDF;
@@ -65,7 +66,6 @@ body {
 	opacity: 0.9;
 	-moz-opacity: 0.9;
 }
-
 #menu li.aero span {
 	background: transparent url(../images/aerotabright.png) no-repeat top right;
 	display: block;
@@ -145,6 +145,12 @@ h2 {
 	height: 18px;
 	
 	
+}
+
+.navbuttons{
+	list-style-type:none;
+	position:relative;
+	left: -40px;
 }
 
 
