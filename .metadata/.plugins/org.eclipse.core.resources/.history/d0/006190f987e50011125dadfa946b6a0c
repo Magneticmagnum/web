@@ -28,7 +28,7 @@
 						<a href="system.html"><span> 1. System </span></a>
 					</li>
 					<li class="aero">
-						<a href="modelxbox360.html"><span>2. Model </span></a>
+						<a href="model.html"><span>2. Model </span></a>
 					</li>
 					<li class="aero">
 						<a href="#"><span> 3. Color </span></a>
@@ -57,24 +57,6 @@
 								<!--<img src="images/stick images/paletteX.png" class="checkbox"> -->
 								<!-- Use javascript to insert the above code inside the <li> element 
 									to hover the X on top of the color palette-->
-							</li>
-							<li class="red">
-								<img src="images/stick images/palettered.png">
-							</li>
-							<li class="blue">
-								<img src="images/stick images/paletteblue.png">
-							</li>
-							<li class="green">
-								<img src="images/stick images/palettegreen.png">
-							</li>
-						</ul>
-						<li>
-							D-Pad
-						</li>
-						<ul class="colorpalette" id="dpad">
-							<li class="gray">
-								<img src="images/stick images/palettegray.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
 							</li>
 							<li class="red">
 								<img src="images/stick images/palettered.png">
@@ -132,7 +114,7 @@
 							<li class="red">
 								<img src="images/stick images/palettered.png">
 							</li>
-							<li class="blue">
+							<li>
 								<img src="images/stick images/paletteblue.png">
 							</li>
 							<li class="green">
@@ -202,23 +184,20 @@
 						<img src="images/stick images/xbox-360-controller.png">
 						
 						<img src="images/stick images/xbox-360-controller-leftstick-gray.png" class="xboxleftstick">
-						
-						<img src="images/stick images/xbox-360-controller-dpad-gray.png" class="xboxdpad">
 
 						<img src="images/stick images/xbox-360-controller-rightstick-gray.png" class="xboxrightstick">
 
-						<img src="images/stick images/xbox-360-controller-buttonx-blue.png" class="xboxbuttonx">
+						<img src="images/stick images/xbox-360-controller-x-blue.png" class="xboxbuttonx">
 
-						<img src="images/stick images/xbox-360-controller-buttony-yellow.png" class="xboxbuttony">
+						<img src="images/stick images/xbox-360-controller-y-yellow.png" class="xboxbuttony">
 
-						<img src="images/stick images/xbox-360-controller-buttona-red.png" class="xboxbuttona">
+						<img src="images/stick images/xbox-360-controller-a-red.png" class="xboxbuttona">
 
-						<img src="images/stick images/xbox-360-controller-buttonb-red.png" class="xboxbuttonb">
+						<img src="images/stick images/xbox-360-controller-b-red.png" class="xboxbuttonb">
 
 					</div>
-						<span id="note"> Images unaligned?  Try zooming in and out until it is fixed.  Press [ Ctrl and + ] </br> or [Ctrl and -] or use Ctrl and Mousewheel </br></span>
+
 				</div>
-				
 			</div>
 		</div>
 

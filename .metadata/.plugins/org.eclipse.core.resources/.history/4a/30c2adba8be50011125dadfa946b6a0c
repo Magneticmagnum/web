@@ -202,8 +202,6 @@
 						<img src="images/stick images/xbox-360-controller.png">
 						
 						<img src="images/stick images/xbox-360-controller-leftstick-gray.png" class="xboxleftstick">
-						
-						<img src="images/stick images/xbox-360-controller-dpad-gray.png" class="xboxdpad">
 
 						<img src="images/stick images/xbox-360-controller-rightstick-gray.png" class="xboxrightstick">
 
@@ -216,9 +214,8 @@
 						<img src="images/stick images/xbox-360-controller-buttonb-red.png" class="xboxbuttonb">
 
 					</div>
-						<span id="note"> Images unaligned?  Try zooming in and out until it is fixed.  Press [ Ctrl and + ] </br> or [Ctrl and -] or use Ctrl and Mousewheel </br></span>
+
 				</div>
-				
 			</div>
 		</div>
 

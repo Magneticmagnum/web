@@ -13,13 +13,9 @@ html {
 	background-color: #FFFFFF;
 	font-family:Arial,Helvetica,sans-serif;
 }
-body{
+body a{
 	background-color: #DCDDDF;
 	width: 930px;
-}
-
-body a{
-	
 	text-decoration: none !important;
 }
 
@@ -219,8 +215,4 @@ h2 {
 	margin-left:-60px;
 }
 
-#note{
-	position:relative;
-	top: 300px;
-}
 

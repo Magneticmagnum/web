@@ -69,24 +69,6 @@
 							</li>
 						</ul>
 						<li>
-							D-Pad
-						</li>
-						<ul class="colorpalette" id="dpad">
-							<li class="gray">
-								<img src="images/stick images/palettegray.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
-							</li>
-							<li class="red">
-								<img src="images/stick images/palettered.png">
-							</li>
-							<li class="blue">
-								<img src="images/stick images/paletteblue.png">
-							</li>
-							<li class="green">
-								<img src="images/stick images/palettegreen.png">
-							</li>
-						</ul>
-						<li>
 							Right Stick
 						</li>
 						<ul class="colorpalette" id="rightstick">
@@ -202,8 +184,6 @@
 						<img src="images/stick images/xbox-360-controller.png">
 						
 						<img src="images/stick images/xbox-360-controller-leftstick-gray.png" class="xboxleftstick">
-						
-						<img src="images/stick images/xbox-360-controller-dpad-gray.png" class="xboxdpad">
 
 						<img src="images/stick images/xbox-360-controller-rightstick-gray.png" class="xboxrightstick">
 
@@ -216,9 +196,8 @@
 						<img src="images/stick images/xbox-360-controller-buttonb-red.png" class="xboxbuttonb">
 
 					</div>
-						<span id="note"> Images unaligned?  Try zooming in and out until it is fixed.  Press [ Ctrl and + ] </br> or [Ctrl and -] or use Ctrl and Mousewheel </br></span>
+
 				</div>
-				
 			</div>
 		</div>
 

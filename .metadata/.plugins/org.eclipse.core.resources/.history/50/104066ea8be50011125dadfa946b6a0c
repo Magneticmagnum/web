@@ -1,0 +1,87 @@
+
+
+#right-cl{
+	
+	position:relative;
+	float: left;
+	width: 650px;
+	height: 300px;
+	border-style:solid;
+	border-width:thin;
+	cursor:pointer;
+	text-align:center;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 50px;
+	-moz-border-radius: 15px;
+	top:-10px;
+	border-radius: 15px;
+	background:url(../images/grey-gradient.jpg);
+	background-size: 100%;
+}
+
+
+.largedisplaybox img{
+	position:absolute;
+	top: -90px;
+    -moz-transform:scale(0.622);
+    -webkit-transform:scale(0.622);
+    transform:scale(0.622);
+}
+
+.xboxleftstick{
+	float:left;
+	padding-top:147px;
+	left:160px;
+}
+
+.xboxdpad{
+	padding-top: 250;
+	left: 200;
+}
+
+.xboxrightstick{
+	padding-top:240px;
+	left:348px; 
+}
+
+.xboxbuttonx{
+	padding-top:178px;
+	left:404px;
+}
+
+.xboxbuttony{
+	padding-top:138px;
+	left:436px;
+}
+.xboxbuttona{
+	padding-top:220px;
+	left:437px;
+}
+
+.xboxbuttonb{
+	padding-top:179px;
+	left:471px;
+}
+
+#left-cl li{
+	padding-top:20px;
+}
+
+.colorpalette li{
+	display:inline;
+}
+
+.checkbox{
+	float:left;
+	position:absolute;
+	margin-left:-19px;
+}
+
+.colorpalette li:last-child .checkbox{
+	padding-left: 4px;
+}
+
+.colorpalette{
+	
+}

@@ -13,14 +13,9 @@ html {
 	background-color: #FFFFFF;
 	font-family:Arial,Helvetica,sans-serif;
 }
-body{
+body {
 	background-color: #DCDDDF;
 	width: 930px;
-}
-
-body a{
-	
-	text-decoration: none !important;
 }
 
 #pagecentercolumn {
@@ -201,7 +196,6 @@ h2 {
 	margin-left:-60px;
 }
 
-
 #system-n64 img{
 	margin-left:-75px;
 	height:80px;
@@ -213,14 +207,10 @@ h2 {
 	padding-left: 20px;
 }
 .system-description{
-	font-size: 10px;
+	font-size: 12px;
 }
 #xbox360wireless img{
 	margin-left:-60px;
 }
 
-#note{
-	position:relative;
-	top: 300px;
-}
 
