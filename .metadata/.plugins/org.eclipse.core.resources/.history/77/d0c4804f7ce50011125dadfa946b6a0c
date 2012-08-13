@@ -28,7 +28,7 @@
 						<a href="system.html"><span> 1. System </span></a>
 					</li>
 					<li class="aero">
-						<a href="modelxbox360.html"><span>2. Model </span></a>
+						<a href="model.html"><span>2. Model </span></a>
 					</li>
 					<li class="aero">
 						<a href="#"><span> 3. Color </span></a>
@@ -50,7 +50,7 @@
 						<li>
 							Left Stick
 						</li>
-						<ul class="colorpalette" id="leftstick">
+						<ul class="colorpalette" id="left-stick">
 							<li class="gray">
 								<img src="images/stick images/palettegray.png">
 								<img src="images/stick images/paletteX.png" class="checkbox">
@@ -69,30 +69,11 @@
 							</li>
 						</ul>
 						<li>
-							D-Pad
-						</li>
-						<ul class="colorpalette" id="dpad">
-							<li class="gray">
-								<img src="images/stick images/palettegray.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
-							</li>
-							<li class="red">
-								<img src="images/stick images/palettered.png">
-							</li>
-							<li class="blue">
-								<img src="images/stick images/paletteblue.png">
-							</li>
-							<li class="green">
-								<img src="images/stick images/palettegreen.png">
-							</li>
-						</ul>
-						<li>
 							Right Stick
 						</li>
-						<ul class="colorpalette" id="rightstick">
+						<ul class="colorpalette" id="right-stick">
 							<li class="gray">
 								<img src="images/stick images/palettegray.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
 							</li>
 							<li class="red">
 								<img src="images/stick images/palettered.png">
@@ -107,84 +88,80 @@
 						<li>
 							X button
 						</li>
-						<ul class="colorpalette" id='buttonx'>
-							<li class="red">
+						<ul class="colorpalette" id='x-button'>
+							<li>
 								<img src="images/stick images/palettered.png">
 							</li>
-							<li class="blue">
+							<li>
 								<img src="images/stick images/paletteblue.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
 							</li>
-							<li class="green">
+							<li>
 								<img src="images/stick images/palettegreen.png">
 							</li>
-							<li class="magenta">
+							<li>
 								<img src="images/stick images/palettemagenta.png">
 							</li>
-							<li class="yellow">
+							<li>
 								<img src="images/stick images/paletteyellow.png">
 							</li>
 						</ul>
 						<li>
 							Y button
 						</li>
-						<ul class="colorpalette" id="buttony">
-							<li class="red">
+						<ul class="colorpalette" id="y-button">
+							<li>
 								<img src="images/stick images/palettered.png">
 							</li>
-							<li class="blue">
+							<li>
 								<img src="images/stick images/paletteblue.png">
 							</li>
-							<li class="green">
+							<li>
 								<img src="images/stick images/palettegreen.png">
 							</li>
-							<li class="magenta">
+							<li>
 								<img src="images/stick images/palettemagenta.png">
 							</li>
-							<li class="yellow">
+							<li>
 								<img src="images/stick images/paletteyellow.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
 							</li>
 						</ul>
 						<li>
 							A button
 						</li>
-						<ul class="colorpalette" id="buttona">
-							<li class="red">
+						<ul class="colorpalette" id="a-button">
+							<li>
 								<img src="images/stick images/palettered.png">
 							</li>
-							<li class="blue">
+							<li>
 								<img src="images/stick images/paletteblue.png">
 							</li>
-							<li class="green">
+							<li>
 								<img src="images/stick images/palettegreen.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
 							</li>
-							<li class="magenta">
+							<li>
 								<img src="images/stick images/palettemagenta.png">
 							</li>
-							<li class="yellow">
+							<li>
 								<img src="images/stick images/paletteyellow.png">
 							</li>
 						</ul>
 						<li>
 							B button
 						</li>
-						<ul class="colorpalette" id="buttonb">
-							<li class="red">
+						<ul class="colorpalette" id="b-button">
+							<li>
 								<img src="images/stick images/palettered.png">
-								<img src="images/stick images/paletteX.png" class="checkbox">
 							</li>
-							<li class="blue">
+							<li>
 								<img src="images/stick images/paletteblue.png">
 							</li>
-							<li class="green">
+							<li>
 								<img src="images/stick images/palettegreen.png">
 							</li>
-							<li class="magenta">
+							<li>
 								<img src="images/stick images/palettemagenta.png">
 							</li>
-							<li class="yellow">
+							<li>
 								<img src="images/stick images/paletteyellow.png">
 							</li>
 						</ul>
@@ -201,19 +178,39 @@
 					<div class="largedisplaybox">
 						<img src="images/stick images/xbox-360-controller.png">
 						
-						<img src="images/stick images/xbox-360-controller-leftstick-gray.png" class="xboxleftstick">
-						
-						<img src="images/stick images/xbox-360-controller-dpad-red.png" class="xboxdpad">
+						<img src="images/stick images/xbox-360-controller-stick.png" class="xboxleftstick">
+						<img src="images/stick images/xbox-360-controller-stick-blue.png" class="xboxleftstick hide">
+						<img src="images/stick images/xbox-360-controller-stick-green.png" class="xboxleftstick hide">
+						<img src="images/stick images/xbox-360-controller-stick-red.png" class="xboxleftstick hide">
 
-						<img src="images/stick images/xbox-360-controller-rightstick-gray.png" class="xboxrightstick">
+						<img src="images/stick images/xbox-360-controller-stick.png" class="xboxrightstick hide">
+						<img src="images/stick images/xbox-360-controller-stick-blue.png" class="xboxrightstick hide">
+						<img src="images/stick images/xbox-360-controller-stick-green.png" class="xboxrightstick hide">
+						<img src="images/stick images/xbox-360-controller-stick-red.png" class="xboxrightstick hide">
 
-						<img src="images/stick images/xbox-360-controller-buttonx-blue.png" class="xboxbuttonx">
+						<img src="images/stick images/xbox-360-controller-x-magenta.png" class="xboxbuttonx hide">
+						<img src="images/stick images/xbox-360-controller-x-green.png" class="xboxbuttonx hide">
+						<img src="images/stick images/xbox-360-controller-x-red.png" class="xboxbuttonx hide">
+						<img src="images/stick images/xbox-360-controller-x-blue.png" class="xboxbuttonx hide">
+						<img src="images/stick images/xbox-360-controller-x-yellow.png" class="xboxbuttonx hide">
 
-						<img src="images/stick images/xbox-360-controller-buttony-yellow.png" class="xboxbuttony">
+						<img src="images/stick images/xbox-360-controller-y-magenta.png" class="xboxbuttony hide">
+						<img src="images/stick images/xbox-360-controller-y-red.png" class="xboxbuttony hide">
+						<img src="images/stick images/xbox-360-controller-y-green.png" class="xboxbuttony hide">
+						<img src="images/stick images/xbox-360-controller-y-blue.png" class="xboxbuttony hide">
+						<img src="images/stick images/xbox-360-controller-y-yellow.png" class="xboxbuttony hide">
 
-						<img src="images/stick images/xbox-360-controller-buttona-red.png" class="xboxbuttona">
+						<img src="images/stick images/xbox-360-controller-a-green.png" class="xboxbuttona hide">
+						<img src="images/stick images/xbox-360-controller-a-blue.png" class="xboxbuttona hide">
+						<img src="images/stick images/xbox-360-controller-a-magenta.png" class="xboxbuttona hide">
+						<img src="images/stick images/xbox-360-controller-a-red.png" class="xboxbuttona hide">
+						<img src="images/stick images/xbox-360-controller-a-yellow.png" class="xboxbuttona hide">
 
-						<img src="images/stick images/xbox-360-controller-buttonb-red.png" class="xboxbuttonb">
+						<img src="images/stick images/xbox-360-controller-b-red.png" class="xboxbuttonb hide">
+						<img src="images/stick images/xbox-360-controller-b-blue.png" class="xboxbuttonb hide">
+						<img src="images/stick images/xbox-360-controller-b-green.png" class="xboxbuttonb hide">
+						<img src="images/stick images/xbox-360-controller-b-magenta.png" class="xboxbuttonb hide">
+						<img src="images/stick images/xbox-360-controller-b-yellow.png" class="xboxbuttonb hide">
 
 					</div>
 

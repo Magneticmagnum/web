@@ -1,0 +1,22 @@
+var xbox360wirelesshtml = "file:///C:/Users/Virus/My%20Documents/Aptana%20Studio%203%20Workspace/noreetech.com/public/colorxbox360wireless.html#";
+/*
+ * palette to colored image class / id links:
+ * 
+ * palette:				image:
+ * #left-stick			xboxleftstick
+ * #right-stick			xboxrightstick
+ * #x-button			xboxbuttonx
+ * #y-button			xboxbuttony
+ * #a-button			xboxbuttona
+ * #b-button			xboxbuttonb
+ */
+$(document).ready(function() {
+	$(".hide").hide();
+	
+	
+});
+
+$(document).ready(function() {
+
+});
+

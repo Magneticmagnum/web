@@ -1,0 +1,28 @@
+var xbox360wirelesshtml = "file:///C:/Users/Virus/My%20Documents/Aptana%20Studio%203%20Workspace/noreetech.com/public/colorxbox360wireless.html#";
+
+$(document).ready(function() {
+	$(".hide").hide();
+
+});
+
+$(document).ready(function() {
+	/*
+	 * Checks cookies for model cookie.  If it's not found, create one.
+	 * If 'model' cookie found, redirect to correct html page
+	 */
+	var cookieSet = $.cookie("model");
+	if ($.cookie("model") == null) {
+		$.cookie("model", "xbox 360 wireless");
+		alert("2");
+		alert($.cookie("model"));
+	} else {
+		var myModel = $.cookie("model");
+		switch(myModel) {
+			case "xbox 360 wireless":
+				window.location.replace(xbox360wirelesshtml);
+		}
+		alert("d");
+	}
+	alert("1");
+});
+

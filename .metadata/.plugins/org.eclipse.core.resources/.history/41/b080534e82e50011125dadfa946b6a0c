@@ -10,11 +10,11 @@ var xbox360wirelesshtml = "file:///C:/Users/Virus/My%20Documents/Aptana%20Studio
  * #a-button			xboxbuttona
  * #b-button			xboxbuttonb
  */
-function changeButtonImage(className, col){
-	var classToChange = ".xbox" +className;
+function changeButtonImage(class, color){
+	var classToChange = $("xbox"+class);
 	var parent = $(classToChange).parent();
 	$(classToChange).remove();
-	$(parent).append('<img src="images/stick images/xbox-360-controller-' + className + '-'+ col + '.png" class="xbox' + className + '">');
+	$(parent).append('<img src="images/stick images/xbox-360-controller-stick' + color + '.png" class="xbox' + class + '">');
 }
 
 $(document).ready(function() {
@@ -30,7 +30,7 @@ $(".colorpalette img").click(function() {
 		$(this).parent().append('<img src="images/stick images/paletteX.png" class="checkbox">');
 	}
 	var thisItem = $(this).closest("ul").attr("id");
-	changeButtonImage(thisItem, myColor);
+	changeButtonImage(thsiItem, myColor);
 
 });
 

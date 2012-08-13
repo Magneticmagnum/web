@@ -14,7 +14,7 @@ function changeButtonImage(className, col){
 	var classToChange = ".xbox" +className;
 	var parent = $(classToChange).parent();
 	$(classToChange).remove();
-	$(parent).append('<img src="images/stick images/xbox-360-controller-' + className + '-'+ col + '.png" class="xbox' + className + '">');
+	$(parent).append('<img src="images/stick images/xbox-360-controller-stick-' + col + '.png" class="xbox' + className + '">');
 }
 
 $(document).ready(function() {

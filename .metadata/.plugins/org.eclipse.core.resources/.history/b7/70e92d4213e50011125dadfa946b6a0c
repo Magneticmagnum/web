@@ -35,11 +35,6 @@
 	left:160px;
 }
 
-.xboxdpad{
-	padding-top: 226px;
-	left: 209px;
-}
-
 .xboxrightstick{
 	padding-top:240px;
 	left:348px; 
@@ -52,7 +47,7 @@
 
 .xboxbuttony{
 	padding-top:138px;
-	left:436px;
+	left:433px;
 }
 .xboxbuttona{
 	padding-top:220px;
@@ -85,3 +80,7 @@
 .colorpalette{
 	
 }
+/*
+ * 0.62297496318 is the percentage to shrink all other images to fit large model of height 300px
+ */
+
