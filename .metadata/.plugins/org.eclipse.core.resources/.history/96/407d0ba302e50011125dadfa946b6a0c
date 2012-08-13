@@ -1,0 +1,215 @@
+/*
+ * Currently selected tab color: DCDDDF
+ */
+
+html {
+	padding-left: 50px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	-moz-box-shadow: 3px 3px 5px 6px black;
+	-webkit-box-shadow: 3px 3px 5px 6px black;
+	box-shadow: 3px 3px 5px 6px #ccc;
+	background-color: #FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+}
+body {
+	background-color: #DCDDDF;
+	width: 930px;
+}
+
+#pagecentercolumn {
+	float: left;
+	background-color: #DCDDDF;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#header {
+
+	background: rgb(240,249,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,249,255,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(161,219,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+	padding-left: 30px;
+	width: 80%;
+	width: 900px;
+	height: 80px;
+	position: relative;
+}
+
+#header span {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#menu ul {
+	position: relative;
+	top: -43px;
+}
+
+#menu li.aero {
+	background: transparent url(../images/aerotab.png) no-repeat top left;
+	display: block;
+	float: left;
+	font: bold 14px Verdana, Trebuchet MS; /* Change 13px as desired */
+	line-height: 23px; /* This value + 8px should equal height of button background (default is 31px) */
+	height: 31px; /* Height of button background height */
+	padding-left: 10px; /* Width of left menu image */
+	text-decoration: none;
+	margin-right: 5px; /*spacing between buttons*/
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /*this and next two rules control opacity of buttons before hover*/
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+}
+#menu li.aero span {
+	background: transparent url(../images/aerotabright.png) no-repeat top right;
+	display: block;
+	padding: 4px 10px 6px 0; /*Set 10px here to match value of 'padding-left' value above*/
+	color: #FFFFFF;
+	text-decoration: none
+}
+#continue{
+	background: transparent url(../images/aeroleft.gif) no-repeat top left;
+	float:left;
+	display: block;
+	padding-left:20px;
+}
+#continue span{
+	background: transparent url(../images/aeroright.gif) no-repeat top left;
+}
+
+#menu li.aeroblack {
+	background: transparent url(../images/aerotabblack.png) no-repeat top left;
+	display: block;
+	float: left;
+	font: bold 14px Verdana, Trebuchet MS; /* Change 13px as desired */
+	line-height: 23px; /* This value + 8px should equal height of button background (default is 31px) */
+	height: 31px; /* Height of button background height */
+	padding-left: 10px; /* Width of left menu image */
+	text-decoration: none;
+	margin-right: 5px; /*spacing between buttons*/
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90); /*this and next two rules control opacity of buttons before hover*/
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+}
+
+#menu li.aeroblack span {
+	background: transparent url(../images/aerotabrightblack.png) no-repeat top right;
+	display: block;
+	padding: 4px 10px 6px 0; /*Set 10px here to match value of 'padding-left' value above*/
+	color: #FFFFFF;
+	text-decoration: none
+}
+
+#stepbody {
+	clear: both;
+	
+	background-color: black;
+}
+
+#left-cl {
+	float: left;
+	width: 205px;
+	background-color: white;
+	position:relative;
+	left: 5px;
+	top: -40px;
+	height:auto;
+}
+
+#left-cl span{
+	
+}
+
+
+#right-cl {
+	position:relative;
+	float: left;
+	width: 700px;
+	margin-left: 10px;
+	background-color: white;
+	top:-10px;
+	height: 350px;
+}
+
+h2 {
+	margin: 0px;
+	padding: 0px 0px 10px 0px;
+	font-size: 16px;
+}
+
+#systemHeader {
+	width: 705px;
+	height: 20px;
+	
+}
+
+#systemHeader div {
+	width: 700px;
+	height: 18px;
+	
+	
+}
+
+
+.systemDisplayBox{
+	position:relative;
+	float: left;
+	width: 180px;
+	height: 155px;
+	border-style:solid;
+	border-width:thin;
+	cursor:pointer;
+	text-align:center;
+	margin-left: 10px;
+	margin-top: 10px;
+	-moz-border-radius: 15px;
+	top:-10px;
+	border-radius: 15px;
+	background:url(../images/grey-gradient.jpg);
+}
+
+.systemDisplayBox:hover{
+	background:url(../images/blue-gradient.jpg);
+}
+
+.systemDisplayBox img {
+	
+	float:left;
+	vertical-align:middle;
+	height: 90px;
+	width: auto;
+	position:absolute;
+	top:35%;
+	left:50%;
+	margin-top:-45px;
+	margin-left:-35px;
+}
+
+#system-ps3 img{
+	margin-left:-60px;
+}
+
+#system-n64 img{
+	margin-left:-75px;
+	height:80px;
+	width:auto;
+}
+
+.system-text{
+	padding-top:100px;
+	padding-left: 20px;
+}
+.system-description{
+	font-size: 12px;
+}
+#xbox360wireless img{
+	margin-left:-60px;
+}
+
+

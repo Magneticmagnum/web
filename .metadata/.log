@@ -863,3 +863,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.core.resources 2 10035 2012-08-11 00:59:27.217
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.aptana.git.core 4 0 2012-08-12 18:11:01.725
+!MESSAGE Failed to acquire write lock on git repository. please ensure any other long-running git processes (i.e. git pull) are completed before retrying.

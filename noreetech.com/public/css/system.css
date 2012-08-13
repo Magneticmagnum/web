@@ -140,6 +140,10 @@ h2 {
 	
 }
 
+.largedisplaybox{
+	position: relative;
+}
+
 #systemHeader div {
 	width: 700px;
 	height: 18px;

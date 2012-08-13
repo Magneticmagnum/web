@@ -1,0 +1,8 @@
+
+/*
+ * Checks cookies for previously customized buttons. 
+ * If none are found, load default values
+ */
+$(document).ready(function() {
+	$(".hide").hide();
+});
