@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+
+    form#formEnterZipcode(name="enterZip",method="post",action="/yelp")
+        input#inputZip(type="text", placeholder="Your Zip code", name="zipcode")
+        button#btnSubmit(type="submit") submit
+    p Restaurant Name: #{restName}
+    p Restaurant Phone: #{restPhone}
+    p Restaurant Location: #{restLocation}
+script(src='/javascript/jquery-1.11.3.min.js')
+script(src='/javascript/yelp.js')
