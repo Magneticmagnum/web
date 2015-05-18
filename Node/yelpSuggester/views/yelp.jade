@@ -2,13 +2,21 @@ extends layout
 
 block content
     h1= title
-    p Welcome to #{title}
-
-    form#formEnterZipcode(name="enterZip",method="post",action="/yelp")
-        input#inputZip(type="text", placeholder="Your Zip code", name="zipcode")
-        button#btnSubmit(type="submit") submit
+    p Ever fight with your girlfriend about deciding where to eat for dinner?  Simply enter your zip code and food category and we'll decide for you!
+     form#formEnterZipcode(name="enterZip",method="post",action="/yelp")
+    div(class="demo demo1")
+      form#formEnterZipcode(name="enterZip",method="post",action="/yelp")
+       div.css
+         label(for="class") Zip
+         input(id="d1 inputZip" type="text", name="zipcode")
+       div.css
+         label(for="class") Category
+         input(id="d1" type="text", name="category")
+      button#btnSubmit(class="cool_btn1 orange" type="submit")
+          h1(class="top") EAT
+          i nom nom nom
+          h2 *
+    img(src="#{image}")
     p Restaurant Name: #{restName}
     p Restaurant Phone: #{restPhone}
     p Restaurant Location: #{restLocation}
-script(src='/javascript/jquery-1.11.3.min.js')
-script(src='/javascript/yelp.js')

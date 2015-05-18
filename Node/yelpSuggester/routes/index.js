@@ -28,19 +28,25 @@ router.get('/newuser', function(req, res) {
 });
 
 router.get('/yelp', function(req, res){
-    res.render('yelp', {title: "Restaurant suggester"});
-});
-
-router.get('/test', function(req, res){
-    res.getHeader()
+    var yelp = req.yelp;
+    var zipCode = req.body.zipcode || "Minneapolis";
+    var restInfo = '';
+    yelp.search({location: zipCode}, function(error, data){
+        var length = data.businesses.length-1;
+        var rand = Math.floor(Math.random() * length);
+        restInfo = data.businesses[rand];
+        console.log(restInfo.image_url);
+        res.render('yelp', {title: "Restaurant suggester",
+                    restName: restInfo.name,
+                    restPhone: restInfo.display_phone,
+                    restLocation: restInfo.location.display_address,
+                    image: restInfo.image_url
+                    });
+    });
 });
 
 router.get('/restaurant', function(req, res){
     res.render('restaurant', {title: "suggester"});
-});
-
-router.get('/yelp2', function(req, res){
-    res.render('yelp2', {title: "yelp2"});
 });
 
 
@@ -56,7 +62,8 @@ router.post('/yelp', function(req, res){
         res.render('yelp', {title: "Restaurant suggester",
                     restName: restInfo.name,
                     restPhone: restInfo.display_phone,
-                    restLocation: restInfo.location.address
+                    restLocation: restInfo.location.display_address,
+                    image: restInfo.image_url
                     });
     });
 });
